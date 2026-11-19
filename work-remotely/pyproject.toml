@@ -1,0 +1,12 @@
+[project]
+name = "work-remotely"
+version = "0.1.0"
+description = "팀원 · 프로젝트 · 이슈 · 작업 기록을 관리하는 MCP 서버"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.2"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

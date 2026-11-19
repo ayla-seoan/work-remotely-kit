@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "team": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "work-remotely",
+        "python",
+        "team_server.py"
+      ],
+      "env": {
+        "PYTHONUTF8": "1",
+        "TEAM_ROLE": "PO"
+      }
+    },
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "linear": {
+      "type": "http",
+      "url": "https://mcp.linear.app/mcp"
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_PAT}"
+      }
+    },
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp"
+    }
+  }
+}

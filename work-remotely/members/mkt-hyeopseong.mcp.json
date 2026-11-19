@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "team": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "work-remotely",
+        "python",
+        "team_server.py"
+      ],
+      "env": {
+        "PYTHONUTF8": "1",
+        "TEAM_ROLE": "마케팅",
+        "TEAM_ME": "mkt-hyeopseong"
+      }
+    },
+    "canva": {
+      "type": "http",
+      "url": "https://mcp.canva.com/mcp"
+    },
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    "slack": {
+      "type": "http",
+      "url": "https://mcp.slack.com/mcp"
+    }
+  }
+}

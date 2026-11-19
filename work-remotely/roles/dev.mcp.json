@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "team": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "work-remotely",
+        "python",
+        "team_server.py"
+      ],
+      "env": {
+        "PYTHONUTF8": "1",
+        "TEAM_ROLE": "개발"
+      }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_PAT}"
+      }
+    },
+    "sentry": {
+      "type": "http",
+      "url": "https://mcp.sentry.dev/mcp"
+    },
+    "supabase": {
+      "type": "http",
+      "url": "https://mcp.supabase.com/mcp"
+    },
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp"
+    }
+  }
+}

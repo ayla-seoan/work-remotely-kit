@@ -1,0 +1,13 @@
+이름,프로그램,사이트,주소,연결,용도
+github,GitHub,https://github.com,https://api.githubcopilot.com/mcp/,http · 토큰(GITHUB_PAT),이슈 · PR · 코드 리뷰
+sentry,Sentry,https://sentry.io,https://mcp.sentry.dev/mcp,http · 로그인,에러 추적 · 버그를 이슈로 연결
+supabase,Supabase,https://supabase.com,https://mcp.supabase.com/mcp,http · 로그인,DB 테이블 · 쿼리 (읽기 전용 권장)
+notion,Notion,https://www.notion.so,https://mcp.notion.com/mcp,http · 로그인,회의록 · 문서 · 주간 진행
+figma,Figma,https://www.figma.com,https://mcp.figma.com/mcp,http · 로그인,디자인 파일 읽기 · 화면 구성
+canva,Canva,https://www.canva.com,https://mcp.canva.com/mcp,http · 로그인,배너 · 홍보 이미지 · 시안
+slack,Slack,https://slack.com,https://mcp.slack.com/mcp,http · 로그인,알림 · 스탠드업 공유
+linear,Linear,https://linear.app,https://mcp.linear.app/mcp,http · 로그인,백로그 · 스프린트 이슈 관리
+google-calendar,Google Calendar,https://calendar.google.com,,claude.ai 커넥터,마감 · 휴가 · 회의 일정
+google-sheets,Google Sheets,https://sheets.google.com,,claude.ai 커넥터,지표 · 리소스 표
+gmail,Gmail,https://mail.google.com,,claude.ai 커넥터,고객 · 파트너 메일 초안
+google-docs,Google Docs,https://docs.google.com,,claude.ai 커넥터,보도자료 · 공지 문서

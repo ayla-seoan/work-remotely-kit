@@ -1,0 +1,10 @@
+번호,날짜,담당자,할 일 번호,내용,시간,링크
+1,2026-11-14,mkt-hyeopseong,9,타깃 페르소나 초안 작성,2,https://app.notion.com/p/41bb77b7c99a81d2a040d1f227148e25
+2,2026-11-15,po-seoan,3,인터뷰 질문 5개 작성 · 팀 리뷰,1.5,https://app.notion.com/p/41bb77b7c99a817ca97ce3da39f2b073
+3,2026-11-16,dev-kangi,1,README 설치 섹션 작성 · 오타 수정,1,https://github.com/ayla-seoan/mcp-practice/blob/main/README.md
+4,2026-11-16,dev-jaemin,5,회원가입 API 라우트 · 스키마,3,https://github.com/ayla-seoan/mcp-practice/commit/2905c2fc8f31601b1f33e4fc589a30eb251fd8a9
+5,2026-11-16,design-minjeong,7,예약 플로우 1차 스케치,2.5,https://www.figma.com/files/recent
+6,2026-11-17,dev-jaemin,5,이메일 중복 500 에러 원인 분석,1.5,https://github.com/ayla-seoan/mcp-practice/commits/main
+7,2026-11-17,po-seoan,8,백로그 초안 · 우선순위 기준 정리,2,https://github.com/ayla-seoan/mcp-practice/blob/main/TODO.md
+8,2026-11-17,dev-kangi,1,실행 방법 섹션 작성 중,1,https://github.com/ayla-seoan/mcp-practice/blob/main/README.md
+9,2026-11-09,design-miyoung,,킥오프 전 레퍼런스 조사,3,https://www.figma.com/community
